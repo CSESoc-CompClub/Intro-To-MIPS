@@ -3,11 +3,11 @@
 ## Big Project - goldguess.s
 
 Oh No! No-Face has eaten too much and has morphed into its terrifying monstrous form!
-He has presented Sen a handful of gold nuggets and has challenged you to guess the value it holds.
+He has presented Sen a handful of gold nuggets and has challenged you to write a MIPS Program to allow Sen to guess the value it holds.
 
 Sen has 3 chances to guess it right. Guess correct and the gold nuggets shall be Sen's. Guess wrong and Sen will be gobbled up.
 
-You have been tasked by No-Face to write a program in his beloved language MIPS to determine if Sen is awarded the gold or becomes dinner. At every guess, tell Sen if her guess is either too low or too high.
+You have been tasked by No-Face to write a program in his beloved language MIPS to determine if Sen is awarded the gold or becomes dinner. At each guess, tell Sen if her guess is either too low or too high.
 
 If she guesses it within 3 tries, congrats she wins! If she runs out of tries, you know what's coming...
 
@@ -86,7 +86,7 @@ The tasks are commented out in *goldguess.s*. We will be completing each section
         Arranged Numbers: 3, 42, 42
     ```
 
-### 4. **Loops - find_factors.s || seq.s**
+### 4. **Loops - seq.s || find_factors.s**
   - seq.s -- Write a program that takes in three numbers, the start of the sequence, the end of the sequence and the step (increment) of the sequence and print out all numbers between 'start' and 'stop' (inclusive), while incrementing the number by 'step' each time.
   - Note that your program does not have to account for negative steps!
 
@@ -101,34 +101,7 @@ The tasks are commented out in *goldguess.s*. We will be completing each section
         7
         9
     ```
-    ```
-        Enter start: 1                              # scanned in 1
-        Enter stop: -11                             # scanned in -11
-        Enter step: -2                              # scanned in -2
-        1
-        -1
-        -3
-        -5
-        -7
-        -9
-        -11
-    ```
-    ``` {No Output}
-        Enter start: 15                             # scanned in 15
-        Enter stop: 0                               # scanned in 0
-        Enter step: 3                               # scanned in 3
-    ```
-    ``` {No Output}
-        Enter start: 4                              # scanned in 4
-        Enter stop: 21                              # scanned in 21
-        Enter step: 5                               # scanned in 5
-    ```
-    ```
-        Enter start: 1                              # scanned in 1
-        Enter stop: 2                               # scanned in 2
-        Enter step: 3                               # scanned in 3
-    ```
-
+    
   - [CHALLENGE] find_factors.s -- Write a program that scans in a positive integer and prints all the factors that it has.
   - [ADD ON] Print an error message **if** the scanned number is negative
   
